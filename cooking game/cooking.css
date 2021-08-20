@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/**
+ * Description
+ * @authors Andy Zhu (you@example.org)
+ * @date    2021-08-05 18:23:58
+ * @version 1.0.0
+ */
+
+
+#main {
+    display: grid;
+    grid-template-columns: 200px 400px 100px;
+
+}
+
+#ingredient {
+    grid-row-start: 1;
+    grid-row-end: auto;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+#mid {
+    grid-row-start: 1;
+    grid-row-end: auto;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+#control {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+#Skillet {
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.content {
+    position: absolute;
+    height: 40px;
+    width: 100px;
+    border-style: solid;
+    border-color: blue;
+    border-width: 1px;
+    margin-top: 5px;
+    background-color: white;
+}
+
+#start {
+    margin-top: 30px;
+}
+
+.filled {
+    text-decoration: line-through;
+}

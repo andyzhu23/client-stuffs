@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Escape Game</title>
+    <link href="escape.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="setup">
+        <h1 style="text-align: center; margin-top: 5px;">Setup Game</h1>
+        <div style="text-align: center;">Difficulty:
+            <select name="difficulty" id="dif">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            <button type="button" id="start">Start</button>
+        </div>
+    </div>
+    <div id="main">
+        <div id="cells"></div>
+        <div id="display">
+            <h1 id="turn">Current Turn: 1</h1>
+            <h1 id="move">Moves Left for Turn: 0</h1>
+            <button type="button" id="roll">Roll Die</button>
+        </div>
+    </div>
+    <h1 id = "lose">You were caught.</h1>
+    <h1 id = "win">Congratulations, you escaped!!!</h1>
+</body>
+<script src="matrix.js"></script>
+<script src="escape.js" defer></script>
+</html>

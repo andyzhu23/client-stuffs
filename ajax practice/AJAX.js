@@ -1,4 +1,4 @@
-const API = "394fa54bd8078b3b1c67c22a9f94ee57"
+const API = "what ever your api key"
 
 function getWeather() {
     var zip = document.getElementById("zip").value;
